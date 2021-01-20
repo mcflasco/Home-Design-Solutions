@@ -1,0 +1,769 @@
+
+  *{
+    box-sizing: border-box;
+}
+body{
+    background-color: #2f343d;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+    height:100%;
+   
+  }
+
+  /* Header ============================================================================================================== */
+  .logo{
+    text-align: center;
+   
+   
+    font-family: 'Yellowtail', cursive;
+    font-size: 75px;
+
+  }
+  .top{
+      padding: 110px 0 0 0;
+  }
+  
+  .header-image{
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    padding-top: 75px;
+      position: fixed;
+  }
+
+/* Navigation ========================================================================================================== */
+
+.nav-items {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;    
+    margin-bottom: 50px;    
+    font-weight: bold;
+  
+  }
+  
+  .left-nav{
+    margin-left: 50px;
+    flex-grow: 1;
+  
+  }
+ 
+  
+  .right-nav{
+      margin-right: 150px;
+  }
+  
+  
+  
+  .nav-item a {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 15px;
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+a:hover {
+
+
+color:goldenrod;
+text-decoration: none;
+    
+}
+
+.sideDrawer{
+    
+    margin-top: 70px;;
+    width: 450px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+    list-style: none;  
+
+}
+
+
+.side{
+   width: 100%;   
+}
+
+.side a{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;  
+    
+}
+
+.side:hover{
+    background-color:orangered;
+}
+
+.side-btn{
+    border: 2px solid white;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0;
+    padding: 15px 15px 0;
+    color: white;
+}
+.side-btn:hover{
+    background-color:orangered;
+}
+
+.open{
+    transform: translateX(0);   
+    transition: 5s;
+    
+}
+
+.close{ 
+    transform: translateX(-100%); 
+}
+/* Home */
+/* Design / HDS ======================================================================================================== */
+
+
+.description{
+    width: 750px;
+    margin-left:150px;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+} 
+
+.heading{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+
+.side-container {
+    position: relative;
+    display: inline-block;
+  }
+
+.container{
+    float: left;
+    margin: 0;
+    margin-top: 75px;
+}
+.background{
+    width: 100%;
+    height: 150px;
+    padding-right: 50px;
+  
+    display: inline-flex;
+}
+.image{
+    width:400px;
+    height:300px;
+    margin-top: 50px;
+}
+.image-right{
+    
+    margin: 50px 75px;
+    
+}
+
+.More-Info-BTN{
+    margin-left: 50px;
+}
+
+/* upgrade =============================================================================================================== */
+.upgrade{
+    height: 400px;
+
+    /* color:white; */
+    border-bottom:2px solid black;
+}
+
+.upgrade-heading{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 620px;
+    
+    /* color:white;
+   */
+}
+
+.upgrade-description{
+    width: 750px;
+    margin-right:150px;
+    margin-top: 50px;
+    text-align: center;
+   
+} 
+
+.middle-section{
+    margin-top: 75px;
+    float:right;
+    
+}
+
+/* Images */
+.image-left{
+   float: left;
+    margin-left:150px;
+}
+
+
+.qoute{
+    margin-left: 25px;;
+    font-weight: bold;
+}
+.background{
+
+    border-bottom: solid 2px black; 
+    height: 400px;
+    
+    /* color:white; */
+    width:100%
+}
+
+
+.title{
+text-align: center;
+margin-bottom: 25px;
+}
+
+
+
+figure{
+    display: inline-block;  
+    padding-top: 2%;    
+    box-sizing: border-box; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    
+}
+ 
+.content{
+    width: 100%;
+    clear: both; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+    
+}
+
+/* About ==================================================================================================================== */
+.about-image{
+    width:400px;
+    height:350px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+   
+}
+
+.about-image:hover{
+    opacity: .5;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.about-desc{
+    width:800px;
+    text-align: center;
+    margin:50px auto;
+}
+
+/* Brands===================================================================================================================== */
+.brand-image{
+     width:400px;
+    height:350px;
+    margin-bottom: 25px;   
+}
+
+.brand-image:hover{
+    opacity: 0.5;
+}
+
+
+
+.brand-image-space{
+    margin-left: 25px;
+}
+
+.brand-row{
+    display: inline-block;  
+    width:800px;
+}
+
+/* .appliance{
+    margin:  0;
+} */
+
+.appliance-image{
+    display: block;
+    width:400px;
+    margin:0 auto;
+    margin-bottom:50px;    
+}
+
+.brand-list{
+    display: flex;  
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.brand-title{
+    margin-top:50px;
+    color:white;
+    text-decoration: none;
+}
+
+
+.brand-title a{
+    color: white;
+}
+
+.brand-title a:hover {
+    text-decoration: none;
+        
+    color:goldenrod;
+}
+
+.cabinet-list{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.brand-button{
+    display: block;
+    text-decoration: none;
+    width:250px;
+    padding: 15px 40px;
+    text-align: center;
+    border: solid 1px  #d6d6d6;   
+    color:#d6d6d6;
+    font-weight:bold;
+    margin:50px auto;
+    
+}
+.brand-button:hover{
+    text-decoration: none;
+}
+
+.brand-container{
+    display: inline-block;    
+    margin-left: 150px;
+    text-align: center;
+}
+
+.brand-test{   
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.cabinet-header-image{
+    width: 100% ;
+    height: 800px;  
+}
+
+.tile-header{
+    margin-top:75px;
+    border-bottom: solid 2px white;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center ;
+}
+.tile-logo{
+    margin-top:50px;
+    margin-bottom:15;   
+    color:black;
+    text-decoration: none;
+}
+
+.tile-logo a{
+    color: Black;
+}
+
+.tile-logo a:hover {   
+    text-decoration: none;
+    color:goldenrod;
+}
+
+.tile-container{
+    margin-bottom: 75px;    
+}
+
+/* Contact ============================================================================================================================= */
+.contact{
+    /* border-right: solid 2px black;  
+    border-left: solid 2px black;   */
+    
+    min-height: 100vh;
+    width: 65%;
+    margin:50px auto;
+  }
+  .contact-title{
+      margin-top:25px;
+      text-align: center;
+  }
+  
+  .form{
+    margin-left: 75px;
+    margin-top: 50px;
+  }
+  .input{
+    padding-right:150px;  
+    height:35px;
+    width:400px;
+   
+      /* background-color: #484d5c;
+      border-color: white;
+      color:white;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden; */
+  }
+
+  form{
+      margin: 25px 75px 25px;
+  }
+
+  .label{
+    margin-bottom: 5px;
+    margin-top: 25px;;
+  }
+  
+  .button{
+    margin-top: 15px;
+  }
+  
+  .message{
+    width:700px;
+    height:200px;
+  }
+  
+  .info{
+    float: right;
+    margin-top: 150px;
+    margin-right:200px;
+  }
+  
+  .contact-info{
+    width:165px;
+    text-align: center;
+  }
+  
+  .submitted-message{
+    text-align: center;
+    border: solid 2px black;
+    padding:50px; 
+    width: 50%;
+    line-height: 2em;
+    margin: 150px auto;        
+  }
+  
+  .desc-title{
+    margin:0;
+    font-weight:bold; 
+  }
+  
+  .submit-button{
+    display: inline-block;
+    margin-top:50px;
+    padding: 15px 40px;
+    text-align: center;
+    border: solid 1px  #d6d6d6;
+    background-color: #2f343d;   
+    color:#d6d6d6;
+    font-weight:bold;
+  }
+
+  .error{
+      color: red;
+      position: absolute;
+      font-size: 13px;
+      font-weight: bold;
+      margin-top: 3px;
+      z-index: -1;
+      
+  }  
+
+ 
+  /* FAQ =================================================================================================================================== */
+  .FAQ-content{
+    display: block;
+    width: 75%;
+    margin-left: 200px;
+    margin-bottom: 75px;
+    color: white;
+    margin-top: 75px;
+    
+   
+}
+
+.faq-p{
+    margin-bottom: 50px;
+}
+
+/* Slider ================================================================================================================================== */
+.slider-image{
+    height:700px;
+    color: black;
+    outline: none;  
+    position: relative;
+    z-index: -1;  
+}
+
+/* Work ==================================================================================================================================== */
+.image-gallery{
+    width:400px;
+    height:500px;
+    margin-left:50px;
+    z-index: -1;  
+}
+
+.image-gallery-thumbnail-image {
+ display: none;
+
+}
+
+button.image-gallery-thumbnail.active{
+    border-color: darkgoldenrod;
+}
+
+.kitchen-image{
+    margin-left: 250px;
+    margin-top: 150px;
+    width:800px;
+    height:500px;
+}
+.kitchen-description{
+    margin-top: 50px;
+    display: inline-block;
+   
+}
+.project-container{
+    text-align: center;
+}
+.project-description{
+    text-align: center;
+
+    margin:50px auto;
+    width: 800px;   
+    margin-bottom: 75px;    ;
+}
+
+.project-info{
+    float:right;
+    margin-top: 150px;
+    margin-right: 250px;;
+}
+
+.project-slides{
+    width:1000px;
+    display: block;
+    margin-bottom: 75px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* Footer ================================================================================================================================== */
+footer{
+
+    background-color: black;
+    padding: 50px 50px 60px 50px;
+   
+    color:white;
+    width: 100%;
+    font: sans-serif;
+    text-align: left;
+    bottom: 0;
+      
+  }
+  /* Left Footer */
+  .left-footer{
+    vertical-align: top;
+    display: inline-block;
+    width:35%;
+}
+
+
+  .footer-nav{
+      display: inline-block;
+      background-color: none;
+      margin-top: 5px;
+      padding: 0;
+      color:white;
+  }
+  .footer-item{
+      display: inline-block;
+      color:white;
+      font-weight: bold;
+     
+  }
+
+  .footer-item a{
+    color:white;
+    
+  }
+
+  .footer-item a:hover{
+    color:goldenrod;
+  }
+  .space-Links{
+      margin: 10px;  
+  }
+
+  /* Middle Footer */
+  .middle-footer{
+    vertical-align: top;
+      display: inline-block;
+     width: 35%;
+  }
+
+  /* Right Footer */
+  .right-footer{
+      display: inline-block;
+    
+      vertical-align: top;
+      width:30%;
+  }
+  .icon{
+      display: inline;
+      margin-right: 5px;
+      
+  }
+  .copyright{
+      opacity: .5;
+      font-size: 14px;
+  }
+
+  
+@media only screen   
+and (max-width: 1370px)  
+  
+{
+    .service-container{
+  
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50px;
+        padding:50px;
+    }
+
+   
+    .service-desc{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .marble{
+        height:450px;
+        margin:0 auto;
+        display: block;
+        float: none;
+        width: 75%;
+       
+        
+        
+    }
+    .side-btn{
+        
+    }
+
+
+
+     /* MOBILE STYLES GO HERE */
+ 
+     .left-footer{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .middle-footer,
+    .right-footer{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+  
+
+    .description{
+    margin-top: 50px;;
+    width:350px;
+    text-align: center;
+    margin:0 auto;
+    margin-left:95px;
+    }
+
+ 
+  
+
+    /* About section */
+    
+   
+
+}
+@media only screen   
+and (max-width: 1024px){
+
+    .about-image, .brand-image{
+        margin: 25px auto;
+        
+    
+        display: block;
+        width: 75%;       
+
+    }
+    .display-cont{  
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+    .about-desc{
+        width: 75%;
+    }
+ 
+}
+@media only screen   
+and (max-width: 900px){
+
+    .nav-links{
+        display: none;
+    }
+    .about-image, .brand-image{
+        height:50%;
+    }
+
+}  
+  

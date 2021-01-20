@@ -1,0 +1,98 @@
+
+
+/* Design / HDS ===================*/
+
+
+.description{
+    width: 750px;
+    margin-left:150px;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+} 
+
+.heading{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 75px;
+   
+    
+}
+
+
+
+.container{
+    float: left;
+}
+
+
+/* upgrade ====================*/
+
+
+.upgrade{
+    
+    
+    height: 400px;
+    /* color:white; */
+    border-bottom:2px solid black;
+}
+
+.upgrade-heading{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-size: 75px;
+    /* color:white;
+   */
+    
+}
+
+.upgrade-description{
+    width: 750px;
+    margin-right:150px;
+    margin-top: 50px;
+    text-align: center;
+   
+} 
+
+.middle-section{
+    float:right;
+    
+}
+
+
+/* Images =====================*/
+
+
+
+.image-left{
+    margin-left:150px;
+}
+
+.image-right{
+    float:right;
+}
+
+.qoute{
+    margin-left: 25px;;
+    font-weight: bold;
+}
+.background{
+
+    border-bottom: solid 2px black; 
+    height: 400px;
+    /* color:white; */
+    width:100%
+    
+}
+.home-test  {
+    height: 400px;
+    /* color:white; */
+    width:100%
+}
+
+
+
+
+
