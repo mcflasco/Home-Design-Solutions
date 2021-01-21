@@ -148,7 +148,7 @@ const initialState = {
                     {/* <FormType type="text" name="email">Zip Code: </FormType>  */}
             
                     <label className="label" for="lname">Message:</label> <br />
-                    <textarea className="message input" name="message" /><br />
+                    <textarea className="message" name="message" /><br />
                     <p className="error">{this.state.messageError}</p>
                     
                    

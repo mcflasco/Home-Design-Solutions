@@ -15,10 +15,11 @@ body{
   /* Header ============================================================================================================== */
   .logo{
     text-align: center;
+    font-size: 80px;
    
    
     font-family: 'Yellowtail', cursive;
-    font-size: 75px;
+   
 
   }
   .top{
@@ -169,8 +170,12 @@ text-decoration: none;
 .background{
     width: 100%;
     height: 150px;
-    padding-right: 50px;
-  
+   
+    border-bottom: solid 2px black; 
+    height: 400px;
+    
+    /* color:white; */
+    width:100%;
     display: inline-flex;
 }
 .image{
@@ -230,14 +235,7 @@ text-decoration: none;
     margin-left: 25px;;
     font-weight: bold;
 }
-.background{
 
-    border-bottom: solid 2px black; 
-    height: 400px;
-    
-    /* color:white; */
-    width:100%
-}
 
 
 .title{
@@ -287,6 +285,7 @@ figcaption{
     width:800px;
     text-align: center;
     margin:50px auto;
+
 }
 
 /* Brands===================================================================================================================== */
@@ -512,7 +511,7 @@ figcaption{
   .FAQ-content{
     display: block;
     width: 75%;
-    margin-left: 200px;
+    margin: 0 auto;
     margin-bottom: 75px;
     color: white;
     margin-top: 75px;
@@ -661,6 +660,44 @@ footer{
       font-size: 14px;
   }
 
+/* Responsive ================================================================================ */
+
+  @media only screen   
+and (max-width: 1500px){
+    .background, .upgrade{
+        display: block;
+        border: none;
+    }
+    .container, .middle-section{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 50px auto;
+        float: none;
+        text-align: center;
+    }
+    .heading, .upgrade-heading{
+        margin: 0;
+        display: block;
+        float: none;
+    }
+
+    .image-right, .image-left{
+        padding: 0;
+        float: none;
+        display: block;
+        margin: 50px auto;
+    }
+    .description, .upgrade-description{
+    margin-bottom: 50px;;
+    width:75%;
+    text-align: center;
+    margin:0 auto;
+   
+    }
+
+  
+}
   
 @media only screen   
 and (max-width: 1370px)  
@@ -699,9 +736,57 @@ and (max-width: 1370px)
     }
 
 
+    .info{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    .contact-info, .desc-title {
+       text-align: center;
+        margin: 0 auto;
+    }
 
+    .contact-info{
+        margin-bottom: 50px;
+    }
+    .desc-title{
+        margin-top: 25px;
+    }
+    .input, .label{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding:0;
+       
+        width: 50%;
+    }
+    .label{
+        margin-top: 25px;
+    }
+    .input{
+        margin-top: -20px;
+    }
+    .error{
+        display: block;
+        font-size: 15px;;
+        left: 50%;
+        transform: translate(-50%, -25%);
+      
+    }
+    
+    div .contact{
+        margin: 0;
+        width: 100%;
+    }
+    .message{
+        display: block;
+        margin: -20px auto;
+        padding: 0;
+        width: 75%;
+    }
      /* MOBILE STYLES GO HERE */
- 
+    
      .left-footer{
         width: 100%;
         display: block;
@@ -718,29 +803,30 @@ and (max-width: 1370px)
     
   
 
-    .description{
-    margin-top: 50px;;
-    width:350px;
-    text-align: center;
-    margin:0 auto;
-    margin-left:95px;
-    }
+    
 
  
   
 
     /* About section */
     
-   
-
+ 
 }
+
+
 @media only screen   
 and (max-width: 1024px){
+   .logo{
+       font-size: 55px;;
+   }
 
+   .title{
+       font-size: 24px;
+   }
     .about-image, .brand-image{
         margin: 25px auto;
         
-    
+        height: 50%;
         display: block;
         width: 75%;       
 
@@ -753,17 +839,90 @@ and (max-width: 1024px){
     .about-desc{
         width: 75%;
     }
+
+    .slide{
+        width: 75%;
+        
+        display: block;
+        margin:  75px auto;
+    }
+    .project-description{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+         }
+    .slider-div{}
  
 }
 @media only screen   
 and (max-width: 900px){
-
-    .nav-links{
+    .about-desc{
+        font-size: 10px;
+    }
+    .side-container{
         display: none;
     }
+    .nav-links{
+        margin: 0 auto;
+    }
+
+    .nav-item a{
+        font-size: 10px;
+        margin: 5px;
+    }
     .about-image, .brand-image{
-        height:50%;
+        height: 50%;
+    }
+    form{
+        margin: 0;
+    }
+
+    .message{
+        width: 95%;
+        height: 150px;
+    }
+    .error{
+        font-size: 13px;
+        width:100%;
+        text-align: center;
+    }
+
+    .submit-button{
+        display: block;
+        margin: 50px auto;
+    }
+    
+    .input{
+        width: 75%;
+        height: 25px;;
     }
 
 }  
+@media only screen   
+and (max-width: 700px){
+    .brand-list{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+  
+    .title{
+        display: block;
+        margin:50px 0;
+    }
+
+    .brand-row, .brand-container, .tile-container{
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+
+    .brand-container{
+        margin: 0;
+    }
+    .tile-header{
+        margin-top: 0   ;
+    }
+    
+}
   

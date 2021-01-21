@@ -12,7 +12,7 @@ import chrome from '../../assets/images/chrome.jpeg';
 const slider = (props) => {
   return (
 
-    <div >
+    <div className="slider-div">
       <Carousel>
         <Carousel.Item>
           <a href=""><img

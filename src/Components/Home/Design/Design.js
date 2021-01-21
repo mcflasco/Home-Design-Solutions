@@ -15,6 +15,7 @@ const design = (props) => {
                 </p>
                 
             </div>
+            <div className="image-container"></div>
             <Link to="/about"><img className="image image-right" src={woodCabinets}/></Link>
                 
         </div>

@@ -16,6 +16,12 @@ class Navigation extends React.Component{
        componenetWillMount(){
         document.addEventListener('mousedown', this.handleClick, false)
     }
+    componentDidUpdate(prevProps) {
+        const { location } = this.props;
+        if (location !== prevProps.location && this.state.isSideDrawerOpen) {
+          this.setState({ isSideDrawerOpen: false });
+        }
+      }
 
 
        handleClick = (e) => {
