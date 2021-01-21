@@ -890,7 +890,7 @@ and (max-width: 900px){
     .submit-button{
         display: block;
         margin: 50px auto;
-        cursor:'pointer';
+        cursor: pointer;
     }
     
     .input{
