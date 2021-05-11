@@ -114,7 +114,7 @@ text-decoration: none;
 }
 
 .side:hover{
-    background-color:orangered;
+    background-color:#3e5270;
 }
 
 .side-btn{
@@ -126,7 +126,7 @@ text-decoration: none;
     color: white;
 }
 .side-btn:hover{
-    background-color:orangered;
+    background-color:#3e5270;
 }
 
 .open{
